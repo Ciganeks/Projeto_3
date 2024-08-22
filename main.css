@@ -1,0 +1,65 @@
+.body {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: #052C63;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #052C63;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #fff;
+}
+
+.section-title {
+    font-family: Roboto, cursive;
+}
+
+#sobre-a-concessionaria, #produtos {
+    background-color: #ffeae6;
+}
+
+.text-colored {
+    color: #052C63;
+}
+
+.nav-produtos .nav-link.active,
+#fale-conosco button {
+    background-color: #052C63;
+    color: #fff;
+}
+
+.nav-produtos .nav-link:hover {
+    color: #052C63;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
+
+img {
+    width: 100%;
+}
+
